@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<title>Dayport Control System 2022</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="assets/favicon.ico">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img class="logo" src="/images/dayport_on_white.png">
+
+		</div>
+		<div class="content-large">
+			<h2>Research</h2>
+			<p>Setpoint Cleanroom<input></p>
+			<p>Setpoint Fan<input></p>
+			<h3>Vent In</h3>
+			<p>Slow<input type="checkbox" id="fan_intake"></p>
+			<p>Fast<input type="checkbox" id="fan_intake_turbo"></p>
+			<p></p>
+			<p>Fan<input type="checkbox" id="fan_circulator"></p>
+			<p>AC<input type="checkbox"></p>
+			
+
+
+		</div>
+		<div class="content-large">
+			??
+		</div>
+		<div class="content-large">
+			<div>Research</div>
+			<div class="temp-entry">&nbsp Cleanroom<div id="28-01195237b6ff" class="temp-val">NaN</div></div>
+			<div class="temp-entry">&nbsp Desk<div id="28-01195242eaff" class="temp-val">NaN</div></div>
+			<div class="temp-entry">&nbsp Pipe<div id="28-0000054d7234" class="temp-val">NaN</div></div>
+			<div class="temp-entry">&nbsp Top<div id="28-01195239e9ff" class="temp-val">NaN</div></div>
+
+
+	</div>
+	<div class="content-large">
+		<h2>Workshop</h2>
+		<h3>Vent Out</h3>
+		<p>Slow<input type="checkbox" id="fan_extractor"></p>
+		<p>Fast<input type="checkbox" id="fan_extractor_turbo"></p>
+		<p>Blastgate open<input type="checkbox" id="blastgate"></p>
+	</div>
+	<div class="content-large">
+		??
+	</div>
+		<div class="content-large">
+		<div class="temp-entry">Workshop<div id="28-0119523b01ff" class="temp-val">NaN</div></div>
+		<div class="temp-entry">Corridor<div id="28-0119523808ff" class="temp-val">NaN</div></div>
+		<div class="temp-entry">Out<div id="28-0119523d7aff" class="temp-val">NaN</div></div>
+	</div>
+	<div class="footer" id="logs"></div>
+	</div>
+
+	<script src="socket.io/socket.io.js"></script>
+
+	<script src="main.js"></script>
+</body>
+</html> 

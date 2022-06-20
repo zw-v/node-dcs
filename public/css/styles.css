@@ -1,0 +1,69 @@
+body {
+	background-color: #6eb5ee;
+	margin: 0;
+}
+
+input {
+	float: right;
+}
+
+p {
+	background-color: darkgrey;
+	height: 30px;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 40px 1fr 1fr 100px;
+	gap: 15px;
+	padding: 15px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	
+}
+.container div {
+	padding: 10px;
+	
+}
+.header {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+.footer {
+	border-radius: 10px;
+	background-color: white;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.logo {
+	margin-top: 0px;
+	margin-left: 10px;
+	width: 200px;
+	border-radius:100px;
+}
+.content-large {
+	border-radius: 10px;
+	background-color: white;
+	/*border: 1px solid #000000;*/
+	/*grid-row-start: 2;*/
+	/*grid-row-end: span 2;*/
+}
+.temp-entry {
+	overflow:auto;
+	border: none;
+}
+.temp-name {
+	display: inline-block;
+
+}
+.temp-val {
+	display: inline-block;
+	vertical-align:top;
+	float: right;
+	border: 0 !important;

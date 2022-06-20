@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DEADBEEF",
+    "id": "28-01DEAD7b6ff",
+    "min": -10,
+    "max": 40
+  },
+  {
+    "name": "r_cleanroom1m",
+    "id": "28-01195237b6ff",
+    "min": -10,
+    "max": 40
+  },
+  {
+    "name" : "out",
+    "id": "28-0119523d7aff",
+    "min": -30,
+    "max": 35
+  },
+  {
+    "name" : "cor",
+    "id": "28-0119523808ff",
+    "min": 0,
+    "max": 35
+  },
+  {
+    "name" : "r_top",
+    "id": "28-01195239e9ff",
+    "min": 0,
+    "max": 45
+  },
+  {
+    "name" : "r_pipe",
+    "id": "28-0000054d7234",
+    "min": 0,
+    "max": 40
+  },
+  {
+    "name" : "r_1m",
+    "id": "28-01195242eaff",
+    "min": 0,
+    "max": 40
+  },
+  {
+    "name" : "w_1m",
+    "id": "28-0119523b01ff",
+    "min": 0,
+    "max": 40
+  }
+]

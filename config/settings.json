@@ -1,0 +1,35 @@
+[
+		{
+				"name" : "blastgate",
+				"pin" : 18,
+				"default" : 0
+		},
+		{
+				"name" : "fan_circulator",
+				"pin" : 8,
+				"default" : 1
+		},
+		{
+				"name" : "fan_intake",
+				"pin" : 21,
+				"default" : 0
+		},
+		{
+				"name" : "fan_extractor",
+				"pin" : 16,
+				"default" : 0
+		},
+		{
+				"name" : "fan_extractor_turbo",
+				"pin" : 12,
+				"default" : 0
+		},
+		{
+				"name" : "he_cleanroom",
+				"pin" : 7,
+				"default" : 0
+		}    
+]
+	
+	
+	

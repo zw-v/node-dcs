@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "pigpio-client": "^1.5.2",
+    "socket.io": "^4.4.1"
+  }
+}
